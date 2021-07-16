@@ -1,0 +1,22 @@
+.header{
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 20px;
+    margin-bottom: 15vh;
+}
+
+.header .title{
+    padding-top: 15px;
+}
+
+.header .logo{
+    width: 65px;
+    float: left;
+}
+
+.header .logo img{
+    width: auto;
+    height: 122px;
+    margin-left: -35px;
+    margin-top: -23px;
+}

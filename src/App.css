@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.body{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    color: whitesmoke;
+    background-color: #2c3548;
+    /*font-family: 'Roboto Slab', serif;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a.orange{
+    color: #f2931f;
+    font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.orange:hover{
+    text-decoration: underline !important;
+    color: #f2931f;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+    text-decoration: none !important;
+    color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover{
+    color: #f2931f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content{
+    padding: 30px;
+    font-weight: 200;
+    background-color: #3B475B;
 }
+
+.with-divider{
+    border-top: solid 1px #2c3548;
+    padding: 60px 0;
+}
+
+.highcharts-title{
+    padding-top: 15px;
+    display: block;
+}
+
+.highcharts-container, .labels-container{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.labels-container{
+    background-color: #2c3548;
+    padding: 15px;
+    text-align: center;
+}
+
+.section-link{
+    color: #fff;
+    font-size: 0.9em;
+}
+.section-link:hover{
+    color: #f2931f;
+}
+
+.fab{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+}
+
+.chip{
+    font-size: 0.8rem;
+    max-width: 200px;
+    border: solid 1px #ffe7a9;
+    color: #000;
+    text-align: center;
+    background: #ffeeda;
+    padding: 5px 10px;
+    display: inline-table;
+    flex: 1;
+    /*border-radius: 15px;*/
+    margin: 6px;
+}
+
+blockquote{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px 30px;
+    border-left: solid 4px hotpink;
+    color: hotpink;
+    font-family: "Signika", Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
