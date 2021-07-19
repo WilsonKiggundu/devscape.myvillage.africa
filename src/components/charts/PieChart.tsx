@@ -1,4 +1,3 @@
-import {Bar} from "react-chartjs-2";
 import * as Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
 import React from "react";
@@ -82,9 +81,6 @@ export default function PieChart(props: IProps) {
         },
         series
     };
-
-
-
 
     return <>
 
