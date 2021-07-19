@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Sidebar from "./components/sidebar/Sidebar";
 import './App.css'
 import Header from "./components/header/Header";
@@ -12,49 +12,52 @@ import Community from "./components/community/Community";
 import Technology from "./components/technology/Technology";
 import Work from "./components/work/Work";
 import AnythingElse from "./components/AnythingElse";
+import {useTracking} from "./hooks/useTracking";
 
 export default function App() {
-  return (
-    <div className="App">
 
-        <div className="container-fluid p-0">
-            <div className="row g-0">
-                <div className="col-lg-9">
-                    <div className="content">
-                        <Header />
-                        <Overview />
-                        <KeyResults />
-                        <DeveloperProfile />
-                        <Experience />
-                        <Education />
-                        <Demographics />
+    useTracking('G-WRQM789W2D')
 
-                        <Technology />
-                        <Work />
+    return (
+        <div className="App">
 
-                        <Community />
-                        <AnythingElse />
+            <div className="container-fluid p-0">
+                <div className="row g-0">
+                    <div className="col-lg-9">
+                        <div className="content">
+                            <Header/>
+                            <Overview/>
+                            <KeyResults/>
+                            <DeveloperProfile/>
+                            <Experience/>
+                            <Education/>
+                            <Demographics/>
 
-                        <small>&copy; All rights reserved.
-                            <a href="https://innovationvillage.co.ug" className="orange">The Innovation Village Kampala</a>
-                        </small>
+                            <Technology/>
+                            <Work/>
+
+                            <Community/>
+                            <AnythingElse/>
+
+                            <small>&copy; All rights reserved.
+                                <a href="https://innovationvillage.co.ug" className="orange">The Innovation Village
+                                    Kampala</a>
+                            </small>
+                        </div>
+
+
                     </div>
-
-
-
-                </div>
-                <div className="col-lg-3">
-                    <Sidebar />
+                    <div className="col-lg-3">
+                        <Sidebar/>
+                    </div>
                 </div>
             </div>
+
+            <a className="fab btn btn-success">
+                <i className="bi bi-list"/>
+            </a>
+
+
         </div>
-
-        <a className="fab btn btn-success">
-            <i className="bi bi-list" />
-        </a>
-
-
-
-    </div>
-  );
+    );
 }
