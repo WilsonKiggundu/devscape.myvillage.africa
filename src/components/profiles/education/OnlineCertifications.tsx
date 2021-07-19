@@ -1,16 +1,20 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import HorizontalBarChart from "../../charts/HorizontalBarChart";
 
 import {API_BASE_URL} from "../../../constants";
 import ChartSection from "../../ChartSection";
 import OnlineCertificationsProvider from "./OnlineCertificationsProvider";
+import useOnScreen from "../../../hooks/useOnScreen";
 
 export default function OnlineCertifications() {
 
     const [labels, setLabels] = useState<string[]>([])
     const [data, setData] = useState<number[]>([])
 
-    useEffect(() => {
+    const ref: any = useRef()
+    const isVisible = useOnScreen(ref)
+
+    if (isVisible && data.length === 0){
         fetch(`${API_BASE_URL}/8rZcbfSuyMD1`)
             .then(response => response.json())
             .then(data => {
@@ -19,10 +23,10 @@ export default function OnlineCertifications() {
                 }
             )
             .catch(error => console.error(error.toString()))
-    }, [setData, setLabels])
+    }
 
     return (
-        <div id="online-certifications" className="row">
+        <div ref={ref} id="online-certifications" className="row">
             <h5 className="mt-5 mb-3">Online Certifications</h5>
 
             <div className="cols-12">
@@ -32,7 +36,9 @@ export default function OnlineCertifications() {
             </div>
 
             <div className="cols-12 col-lg-6">
-                <ChartSection type="pie" chartTitle="Have you done any online certifications?" height={200} labels={labels} data={data} />
+                <ChartSection type="pie"
+                              chartTitle="Have you done any online certifications?"
+                              height={200} labels={labels} data={data} />
             </div>
 
             <div className="cols-12 col-lg-6">

@@ -19,7 +19,8 @@ export const useTracking = (trackingId: string) => {
             if (!window.gtag) return
             if (!trackingId) {
                 console.log(
-                    'Tracking not enabled, as `trackingId` was not given and there is no `GA_MEASUREMENT_ID`.'
+                    'Tracking not enabled, as `trackingId` was not given and ' +
+                    'there is no `GA_MEASUREMENT_ID`.'
                 )
                 return
             }
