@@ -82,13 +82,17 @@ export default function PieChart(props: IProps) {
         series
     };
 
-    return <>
-
-        {props.children}
-
-        <HighchartsReact
-            highcharts={Highcharts}
-            options={options}
-        />
-    </>
+    return (
+        <div className="row">
+            <div className="col-lg-12">
+                {props.children}
+            </div>
+            <div className="col-lg-12">
+                <HighchartsReact
+                    highcharts={Highcharts}
+                    options={options}
+                />
+            </div>
+        </div>
+    )
 }

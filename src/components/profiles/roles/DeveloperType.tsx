@@ -26,7 +26,7 @@ export default function DeveloperType() {
 
     return (
         <div ref={ref}>
-            <ChartSection height={950} labels={labels} data={data} title="Developer Type">
+            <ChartSection height={700} labels={labels} data={data} title="Developer Type">
                 <p>48.1% of the respondents identity as Full-stack developers. This means that they can do both
                     front-end and back-end development. Globally, the demand for such developers is on the rise.</p>
             </ChartSection>

@@ -26,7 +26,7 @@ export default function UndergraduateMajor() {
 
     return (
         <div ref={ref}>
-            <ChartSection height={500} labels={labels} data={data} title="Undergraduate Major">
+            <ChartSection height={450} labels={labels} data={data} title="Undergraduate Major">
                 <p>Computer science, computer engineering, software engineering are the most popular disciplines. 42.5%
                     of all respondents did one of these at Undergraduate level. Information systems, information technology are the second most popular.</p>
                 <p>When we did more analysis of the data, we found that these disciplines are more synonymous with respondents that have less than 5 years of

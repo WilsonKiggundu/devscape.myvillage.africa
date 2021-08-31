@@ -30,12 +30,13 @@ export default function HorizontalBarChart(props: IProps) {
         },
         xAxis: {
             lineWidth: 0,
-            enabled: false,
+            visible: true,
             lineColor: 'transparent',
             categories: props.labels,
             labels: {
+                useHTML: true,
                 style: {
-                    color: '#fff'
+                    color: '#fff',
                 }
             },
             color: '#ffffff',
@@ -49,6 +50,7 @@ export default function HorizontalBarChart(props: IProps) {
             labels: {
                 enabled: false
             },
+            width: "100%",
             lineColor: 'transparent',
             gridLineColor: 'transparent',
             title: {

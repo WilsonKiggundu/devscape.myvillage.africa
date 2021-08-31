@@ -45,7 +45,6 @@ export default function App() {
                             </small>
                         </div>
 
-
                     </div>
                     <div className="col-lg-3">
                         <Sidebar/>
@@ -53,9 +52,9 @@ export default function App() {
                 </div>
             </div>
 
-            <a className="fab btn btn-success">
-                <i className="bi bi-list"/>
-            </a>
+            {/*<a className="fab btn btn-success">*/}
+            {/*    <i className="bi bi-list"/>*/}
+            {/*</a>*/}
 
 
         </div>

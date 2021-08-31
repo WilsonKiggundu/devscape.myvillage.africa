@@ -28,6 +28,9 @@ export default function Technology() {
     return (
         <MainSection title="Technology">
             <div className="pt-5">
+                
+            </div>
+            <div className="pt-5">
                 <a className="section-link" href="#most-popular-technologies">Most Popular Technologies <i
                     className="bi bi-arrow-right"/></a><br/>
                 <a className="section-link" href="#most-dreaded-technologies">Most Loved, Dreaded and Wanted <i

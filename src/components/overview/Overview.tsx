@@ -6,9 +6,9 @@ export default function Overview() {
     return (
         <div id="overview" className="overview">
             <div className="intro-text">
-                State of the Developer Landscape in Uganda.
+                State of the Developer Landscape in Uganda,
                 <br/>
-                <small>2021</small>
+                2021
             </div>
 
             <div className="row">
@@ -32,7 +32,7 @@ export default function Overview() {
                 </div>
             </div>
 
-            <div className="row mt-5">
+            <div className="row mt-5 fs-4">
                 <div className="col-12 col-lg-6">
                     <p>We set out to understand the developer ecosystem in Uganda with the aim of starting conversations
                      bridging the gaps therein. We are interested in knowing its size, level of experience, tech stack,
@@ -54,9 +54,9 @@ export default function Overview() {
                     <p>Finally, for those who want to read the full report, you can download it by clicking the button below. We look forward to
                         seeing what you find—if you share on social media, be sure to tag us!</p>
 
-                    <p>
-                        <a className="download-button" href="">Download Report</a>
-                    </p>
+                    {/*<p>*/}
+                    {/*    <a className="download-button" href="">Download Report</a>*/}
+                    {/*</p>*/}
 
                 </div>
             </div>

@@ -22,35 +22,34 @@ export default function Work() {
             <div className="pt-5">
                 <a className="section-link" href="#employment">
                     Employment <i className="bi bi-arrow-right"/></a><br/>
-                <a className="section-link" href="company-information">
+                <a className="section-link" href="#company-information">
                     Company Information <i className="bi bi-arrow-right"/></a><br/>
-                <a className="section-link" href="#Career Values">
+                <a className="section-link" href="#career-values">
                     Career Values <i className="bi bi-arrow-right"/></a><br/>
                 <a className="section-link" href="#looking-for-a-job">
                     Looking for a Job <i className="bi bi-arrow-right"/></a><br/>
                 <a className="section-link" href="#job-priorities">
                     Job Priorities <i className="bi bi-arrow-right"/></a><br/>
-                <a className="section-link" href="#Salary">
+                <a className="section-link" href="#salary">
                     Salary <i className="bi bi-arrow-right"/></a><br/>
             </div>
 
             <EmploymentStatus />
-            <Salary />
             <CompanySize />
             <CompanyCategory />
-            <Companies />
-
             <CompanyOnboarding />
             <WorkingOvertime />
             <CapacityBuilding />
             <DevOps />
-
-            <JobSatisfaction />
             <HoursPerWeek />
+            
+            <JobSatisfaction />
             <JobSearching />
             <ReasonsForJobSearch />
             <HowDoYouLearnAboutCompany />
             <CareerValues />
+
+            <Salary />
 
         </MainSection>
     )

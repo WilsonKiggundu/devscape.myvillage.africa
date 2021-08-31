@@ -25,10 +25,21 @@ export default function YearsOfExperience() {
 
     return (
         <div ref={ref}>
-            <ChartSection height={250} labels={labels} data={data} title="Years since Learning to Code">
+            <ChartSection type={"pie"} height={600} labels={labels} data={data} title="Years since Learning to Code">
                 <p>We wanted to know when the respondents wrote their first line of Code so that we analyse their growth rate.
-                    Over 65% of respondents wrote their <strong>Hello, World!</strong> program less than 5 years ago.</p>
+                    Over 65% of respondents wrote their <strong>Hello, World!</strong> program less than 5 years ago. If you have
+                recently tried to hire developers, you would agree with this statistic because the reality is that seasoned
+                experienced software developers are hard to find in Uganda.</p>
+
+                <div className="pt-3">It is worth noting, however, that there have been massive efforts in developing, skilling and retooling software developers
+                    with the aim of giving them the necessary skills. A number of entities like
+                    <a className="orange" target="_blank" href="https://refactory.ug">Refactory</a>,&nbsp;
+                    <a className="orange" target="_blank" href="https://innovationvillage.co.ug">The Innovation Village</a>&nbsp;
+                     have been at the forefront of this.</div>
+
             </ChartSection>
+
+
         </div>
     )
 }

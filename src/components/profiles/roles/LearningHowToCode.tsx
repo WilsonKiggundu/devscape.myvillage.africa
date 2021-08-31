@@ -26,7 +26,7 @@ export default function LearningHowToCode() {
 
     return (
         <div ref={ref}>
-            <ChartSection height={300} labels={labels} data={data} title="Learning how to Code">
+            <ChartSection type={"pie"} height={600} labels={labels} data={data} title="Learning how to Code">
                 <p>We asked the respondents how they learnt how to code. The results show that almost one third
                     learnt coding through online courses while about 44% learnt in school.</p>
                 <p>Most of the respondents that are above 30 years old say that they Googled their way to coding. This is

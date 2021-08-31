@@ -26,7 +26,7 @@ export default function ChartSection({type, title, children, ...rest}: IProps) {
                     <div id={id} className="mt-5 mb-3">
                         {title && <h5 className="mb-3">{title}</h5>}
                         <div className="row mb-3">
-                            <div className="col-12 col-lg-8">
+                            <div className="col-12 col-lg-6">
                                 {children}
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function ChartSection({type, title, children, ...rest}: IProps) {
                     <div id={id} className="mt-5 mb-3">
                         {title && <h5 className="mb-3">{title}</h5>}
                         <div className="row mb-3">
-                            <div className="col-12 col-lg-8">
+                            <div className="col-12 col-lg-6">
                                 {children}
                             </div>
                         </div>

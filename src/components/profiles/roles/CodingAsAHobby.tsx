@@ -26,7 +26,7 @@ export default function CodingAsAHobby() {
 
     return (
         <div ref={ref}>
-            <ChartSection type="pie" height={350} labels={labels} data={data} title="Coding as a Hobby">
+            <ChartSection type="pie" height={450} labels={labels} data={data} title="Coding as a Hobby">
                 <p>One third of the respondents code for fun. Most of these are self-taught
                     coders who find coding fascinating and fun.
                     About 7% don't know if they want to code professionally or as a hobby.</p>
