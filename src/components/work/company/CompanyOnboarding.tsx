@@ -30,9 +30,16 @@ export default function CompanyOnboarding() {
                 data={data}
                 title="Onboarding Processes">
                 <p>Developer onboarding is a very critical process that needs to be undertaken whenever a new developer
-                    is onboarded onto a project. However, as the data show, nearly half of the respondents say that
-                    their
-                    companies don't have an onboarding process. This is is very risk.</p>
+                    is onboarded onto a project. However, as the data shows, nearly half of the respondents say that
+                    their companies don't have an onboarding process. This is very risky. You have to put these
+                    processes in place to ensure that your product does not change significantly with changes in the
+                    developers otherwise down the road, it will be very difficult to maintain and support the
+                    product.</p>
+
+                <p>Even more, you may be losing your great hires too soon because of lack of a proper onboarding
+                    process <a target={"_blank"}
+                               href="https://www.forbes.com/sites/jeffhyman/2018/09/12/onboarding-fail/?sh=6474ee7e4700"
+                               className="orange">according to Forbes magazine.</a></p>
             </ChartSection>
         </div>
 

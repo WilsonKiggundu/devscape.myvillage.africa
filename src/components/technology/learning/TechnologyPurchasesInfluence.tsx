@@ -36,6 +36,18 @@ export default function TechnologyPurchasesInfluence() {
                     to use tools which would otherwise not have been their preferred options.</p>
 
             </ChartSection>
+            <div style={{margin: "15px 0"}}>
+                <p>There are many tools out there that developers can use. We found that if you allow your developers to
+                    use the tools they prefer, you get more value from them than if you force them to use particular
+                    tools. The most classic example is computers. Because MacBooks are relatively more expensive to buy
+                    than Windows computers, many employers opt to buy the latter and expect the developers to use them.
+                    The fact that there are some development tools that work best on MacBooks. This is especially true for
+                    design work.</p>
+                <p>We therefore recommend that whenever possible, let the developers choose the tools they want to
+                    use.</p>
+            </div>
+
+
         </div>
 
     )

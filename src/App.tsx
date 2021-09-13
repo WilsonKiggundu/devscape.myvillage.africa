@@ -21,9 +21,9 @@ export default function App() {
     return (
         <div className="App">
 
-            <div className="container-fluid p-0">
+            <div className="container p-0">
                 <div className="row g-0">
-                    <div className="col-lg-9">
+                    <div className="col-lg-12">
                         <div className="content">
                             <Header/>
                             <Overview/>
@@ -45,9 +45,6 @@ export default function App() {
                             </small>
                         </div>
 
-                    </div>
-                    <div className="col-lg-3">
-                        <Sidebar/>
                     </div>
                 </div>
             </div>

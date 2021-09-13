@@ -30,9 +30,9 @@ export default function FeelingAboutPurpleLinks() {
                 data={data}
                 title="Those purple links, again!">
 
-                <p>We asked respondents how they feel when you search for a
+                <p>We asked respondents how they feel when they search for a
                     coding solution online and the first result link is purple because they already visited the link.
-                    As you can imagine, 13% of them say that they get annoyed. This is probably because they have tried
+                    13% of them said that they get annoyed. This is probably because they have tried
                     everything but have failed to get the solution. Even worse, purple links may mean that that is the
                     solution you are looking for but you have just failed to figure it out. It's annoying!
                 </p>

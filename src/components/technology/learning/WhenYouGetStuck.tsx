@@ -29,7 +29,8 @@ export default function WhenYouGetStuck() {
                 data={data}
                 title="What do you do when you get stuck?">
 
-                <p>Have you every heard of Stack Overflow? If not, then you should pick interest in it because 8 in 10
+                <p>Have you every heard of <a href="https://stackoverflow.com" className="orange">
+                    Stack Overflow</a>? If not, then you should pick interest in it because 8 in 10
                     of your
                     developers run to it whenever you give them a coding challenge that they can't solve. Even more, if
                     you
