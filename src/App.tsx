@@ -16,7 +16,7 @@ import {useTracking} from "./hooks/useTracking";
 
 export default function App() {
 
-    // useTracking('G-WRQM789W2D')
+    useTracking('G-WRQM789W2D')
 
     return (
         <div className="App">
